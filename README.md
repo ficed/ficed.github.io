@@ -62,6 +62,13 @@ terrain type done. No scripting or encounters implemented yet.
 - Character naming screen implemented
 - Others not done yet
 
+## Other functionality
+
+- Basic plugin support has started to go in; plugins that replace
+	files and affect backgrounds and dialog are implemented. Not 
+	going to worry too much about this until somebody is actually
+	interested in implementing some mods for Braver.
+
 ## Current screenshots
 
 (As of v0.1.0)
@@ -71,3 +78,7 @@ terrain type done. No scripting or encounters implemented yet.
 ![Materia menu](materiamenu.png)
 
 ![World map](wm.png)
+
+Hi-res background replacement via plugin:
+
+![Hi res backgrounds](hiresbg.jpg)

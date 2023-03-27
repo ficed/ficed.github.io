@@ -36,6 +36,8 @@ the hope is that Braver will work for every FF7 location/battle/etc.
 - Post battle screens (XP, AP, items) display but mostly don't do a lot yet
 - Models load and display, but most animations, effects and camera movements aren't implemented.
 	Player UI (HP/MP/Barrier gauges, etc.) partially implemented.
+	Have just started working on tying up animations and effects, but only
+	the very first parts are in place.
 - Player menus (abilities, magic, items, etc.) mostly calculated correctly, but not fully tested
 
 The end result is you can technically fight a battle, but while an static screenshot might look not too bad,
@@ -71,8 +73,6 @@ terrain type done. No scripting or encounters implemented yet.
 
 ## Current screenshots
 
-(As of v0.1.0)
-
 ![First reactor mission](nmkin_1.png)
 
 ![Materia menu](materiamenu.png)
@@ -82,3 +82,13 @@ terrain type done. No scripting or encounters implemented yet.
 Hi-res background replacement via plugin:
 
 ![Hi res backgrounds](hiresbg.jpg)
+
+First few battle animations/effects decoded:
+
+(i.e. playing the right combination of animations, movements, and
+effects based on the game scripts)
+
+<video width="960" height="540" controls>
+<source src="Braver-0.12-BattleAnimations.mp4" type="video/mp4">
+ Your browser does not support the video tag.
+</video>

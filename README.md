@@ -67,9 +67,7 @@ terrain type done. No scripting or encounters implemented yet.
 ## Other functionality
 
 - Basic plugin support has started to go in; plugins that replace
-	files and affect backgrounds and dialog are implemented. Not 
-	going to worry too much about this until somebody is actually
-	interested in implementing some mods for Braver.
+	files and affect backgrounds, dialog, sound effects and musi are implemented. Some basic 7th Heaven mod compatibility is implemented via a plugin.
 
 ## Current screenshots
 
